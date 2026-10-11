@@ -1,0 +1,32 @@
+FULL HIPERTROFIA - proyecto para generar el APK (Android)
+
+Este paquete convierte la app en una aplicación de Android. No contiene el APK ya hecho:
+GitHub lo construye gratis en la nube con los archivos de esta carpeta.
+
+PASOS
+1. Crea una cuenta gratis en github.com e inicia sesión.
+2. Crea un repositorio nuevo (botón "New"), privado o público.
+3. Descomprime este ZIP y sube TODO su contenido al repositorio
+   (Add file > Upload files). Incluye la carpeta oculta ".github": si tu explorador
+   no la muestra, activa "mostrar archivos ocultos" o arrastra la carpeta completa.
+4. Entra a la pestaña "Actions", elige "Build APK" y pulsa "Run workflow".
+   (También se ejecuta solo cada vez que subes cambios.)
+5. Cuando termine (unos minutos), abre esa ejecución y descarga "FullHipertrofia-APK"
+   en la sección "Artifacts". Dentro está app-debug.apk.
+6. Pásalo a tu celular e instálalo. Android te pedirá permitir instalar apps
+   de orígenes desconocidos para ese archivo.
+
+QUÉ HACE LA APP EN EL CELULAR
+- Pide permiso de cámara la primera vez que la usas (fotos, video y conteo de repeticiones).
+- Los avisos (Hora De Ejercitar cada 4 h, Alimentate Bien cada 3 h, Recuerda LA CREATINA cada 12 h)
+  llegan como notificaciones del teléfono aunque la app esté cerrada. Actívalos en Ajustes.
+  Android puede retrasarlos unos minutos para ahorrar batería.
+- Los enlaces a YouTube y Google se abren fuera de la app.
+
+ACTUALIZAR LA APP
+Reemplaza app/src/main/assets/index.html por la versión nueva y vuelve a ejecutar "Build APK".
+
+NOTAS
+- Es un APK de prueba (debug): sirve para instalar en tu celular, no para subir a Google Play.
+- El proyecto no se pudo compilar en el entorno donde se generó. Si la compilación en GitHub
+  falla, copia el mensaje de error y se corrige.
