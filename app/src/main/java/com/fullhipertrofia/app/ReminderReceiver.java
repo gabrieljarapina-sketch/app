@@ -12,7 +12,10 @@ import android.os.Build;
 public class ReminderReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context c, Intent i) {
-        String t = i.getStringExtra("t");
+        show(c, i.getStringExtra("t"));
+    }
+
+    public static void show(Context c, String t) {
         if (t == null) return;
         NotificationManager nm = (NotificationManager) c.getSystemService(Context.NOTIFICATION_SERVICE);
         if (Build.VERSION.SDK_INT >= 26) {

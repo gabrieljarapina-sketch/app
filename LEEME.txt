@@ -21,6 +21,7 @@ QUÉ HACE LA APP EN EL CELULAR
 - Los avisos (Hora De Ejercitar cada 4 h, Alimentate Bien cada 3 h, Recuerda LA CREATINA cada 12 h)
   llegan como notificaciones del teléfono aunque la app esté cerrada. Actívalos en Ajustes.
   Android puede retrasarlos unos minutos para ahorrar batería.
+- El contador de pasos usa el sensor de pasos del teléfono (pide el permiso de actividad física).
 - Los enlaces a YouTube y Google se abren fuera de la app.
 
 ACTUALIZAR LA APP
